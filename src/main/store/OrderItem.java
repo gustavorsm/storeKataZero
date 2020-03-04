@@ -36,12 +36,18 @@ public class OrderItem {
 			totalItem = itemAmount - itemAmount * 20 / 100;
 		}
 		if (getProduct().getCategory() == ProductCategory.Cloathing) {
-			float cloathingDiscount = 0;
-			if (getQuantity() > 2) {
-				cloathingDiscount = getProduct().getUnitPrice();
-			}
-			totalItem = itemAmount - cloathingDiscount;
+			totalItem = discountCloathing(itemAmount, getQuantity() > 2, getProduct().getUnitPrice());
 		}
+		return totalItem;
+	}
+
+	private float discountCloathing(float itemAmount, boolean b, float unitPrice) {
+		float totalItem;
+		float cloathingDiscount = 0;
+		if (b) {
+			cloathingDiscount = unitPrice;
+		}
+		totalItem = itemAmount - cloathingDiscount;
 		return totalItem;
 	}
 }
