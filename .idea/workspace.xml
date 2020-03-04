@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e247fe9c-379a-41f3-b92e-0f147417739e" name="Default Changelist" comment="" />
+    <list default="true" id="e247fe9c-379a-41f3-b92e-0f147417739e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/store/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/store/OrderItem.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +26,25 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="All in StoreKataZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StoreKataZero" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in StoreKataZero" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -41,9 +60,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583356896289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583356896289" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583356896289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583356896289" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583356896289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583356896289" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583356896289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583356896289" />
+    <state x="775" y="455" key="ReplaceDuplicatesPrompt" timestamp="1583356971299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="455" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1583356971299" />
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583356388185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1583356388185" />
+    <state x="1197" y="323" width="540" height="496" key="extract.method.dialog" timestamp="1583356966871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1197" y="323" width="540" height="496" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583356966871" />
   </component>
 </project>
