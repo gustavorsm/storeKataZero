@@ -28,7 +28,6 @@ public class OrderItem {
 			totalItem = discountBooks(itemAmount, itemAmount >= 100, itemAmount * 10 / 100);
 		}
 		if (getProduct().getCategory() == ProductCategory.Bikes) {
-			// 20% discount for Bikes
 			totalItem = discountBikes(itemAmount, itemAmount * 20 / 100);
 		}
 		if (getProduct().getCategory() == ProductCategory.Cloathing) {
