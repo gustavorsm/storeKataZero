@@ -1,7 +1,7 @@
 package store;
 
 public class OrderItem {
-	
+
 	private Product product;
 	private int quantity;
 
@@ -12,7 +12,7 @@ public class OrderItem {
 		this.product = product;
 		this.quantity = quantity;
 	}
-	
+
 	public Product getProduct() {
 		return product;
 	}
@@ -23,42 +23,28 @@ public class OrderItem {
 
 	float calculateTotalFor() {
 		float totalItem=0;
-		float itemAmount = getProduct().getUnitPrice() * getQuantity();
+		float discount = 0;
+		DiscountCalculator discountCalculator = createDiscountCalculator();
+		discount = discountCalculator.calculateDiscount(this);
+		//totalItem = calculateTotalAmount() - discount;
+		return discount;
+	}
+
+	private DiscountCalculator createDiscountCalculator() {
+		DiscountCalculator discountCalculator = null;
 		if (getProduct().getCategory() == ProductCategory.Accessories) {
-			totalItem = discountBooks(itemAmount, itemAmount >= 100, itemAmount * 10 / 100);
+			discountCalculator = new calculateBooksDiscount();
 		}
 		if (getProduct().getCategory() == ProductCategory.Bikes) {
-			totalItem = discountBikes(itemAmount, itemAmount * 20 / 100);
+			discountCalculator = new calculateBikesDiscount();
 		}
 		if (getProduct().getCategory() == ProductCategory.Cloathing) {
-			totalItem = discountCloathing(itemAmount, getQuantity() > 2, getProduct().getUnitPrice());
+			discountCalculator = new calculateCloathingDiscount();
 		}
-		return totalItem;
+		return discountCalculator;
 	}
 
-	private float discountBooks(float itemAmount, boolean b, float v) {
-		float totalItem;
-		float booksDiscount = 0;
-		if (b) {
-			booksDiscount = v;
-		}
-		totalItem = itemAmount - booksDiscount;
-		return totalItem;
-	}
-
-	private float discountBikes(float itemAmount, float v) {
-		float totalItem;
-		totalItem = itemAmount - v;
-		return totalItem;
-	}
-
-	private float discountCloathing(float itemAmount, boolean b, float unitPrice) {
-		float totalItem;
-		float cloathingDiscount = 0;
-		if (b) {
-			cloathingDiscount = unitPrice;
-		}
-		totalItem = itemAmount - cloathingDiscount;
-		return totalItem;
+	private float calculateTotalAmount() {
+		return getProduct().getUnitPrice() * getQuantity();
 	}
 }

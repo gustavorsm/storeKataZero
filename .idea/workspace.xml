@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e247fe9c-379a-41f3-b92e-0f147417739e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/store/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/store/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/store/calculateBikesDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/store/calculateBikesDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/store/calculateBooksDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/store/calculateBooksDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/store/calculateCloathingDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/store/calculateCloathingDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/store/calculateDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/store/DiscountCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,11 +40,44 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in StoreKataZero (4)">
+    <configuration name="All in StoreKataZero (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StoreKataZero" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in StoreKataZero (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StoreKataZero" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in StoreKataZero (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StoreKataZero" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in StoreKataZero (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StoreKataZero" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in StoreKataZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StoreKataZero" />
       <option name="PACKAGE_NAME" value="" />
@@ -42,6 +88,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in StoreKataZero (4)" />
+        <item itemvalue="JUnit.All in StoreKataZero (3)" />
+        <item itemvalue="JUnit.All in StoreKataZero (2)" />
+        <item itemvalue="JUnit.All in StoreKataZero (1)" />
         <item itemvalue="JUnit.All in StoreKataZero" />
       </list>
     </recent_temporary>
@@ -60,33 +110,65 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583356896289">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583371462376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583356896289" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583356896289">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583371462376" />
+    <state x="690" y="122" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583367432044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583356896289" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583356896289">
+    <state x="690" y="122" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583367432044" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1583371850702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583356896289" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583356896289">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583371850702" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1583371850702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583356896289" />
-    <state x="775" y="455" key="ReplaceDuplicatesPrompt" timestamp="1583356971299">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583371850702" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1583371850702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="775" y="455" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1583356971299" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583371850702" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1583371850702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583371850702" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583371850702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583371850702" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583371850702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583371850702" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583371850702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583371850702" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583371850702">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583371850702" />
+    <state x="775" y="455" key="ReplaceDuplicatesPrompt" timestamp="1583356998810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="455" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1583356998810" />
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583356388185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1583356388185" />
-    <state x="1197" y="323" width="540" height="496" key="extract.method.dialog" timestamp="1583356966871">
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583371732899">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1197" y="323" width="540" height="496" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583356966871" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583371732899" />
+    <state x="1197" y="323" width="540" height="496" key="extract.method.dialog" timestamp="1583368531737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1197" y="323" width="540" height="496" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583368531737" />
+    <state x="656" y="118" width="607" height="804" key="find.popup" timestamp="1583357912950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="118" width="607" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583357912950" />
   </component>
 </project>
