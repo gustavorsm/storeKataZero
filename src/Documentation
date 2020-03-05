@@ -1,0 +1,8 @@
+//Primero realize la refactorizacion a funciones externas en la misma clase
+//Segundo la creacion de las nuevas clases
+//Tercero la creacion de la interaz
+//Renombrar clases y funciones por nombres descriptivos
+//Refactorizacion de las funciones de la clase orderItem a las clases previamente creadas
+//Implementacion para el uso de la interfaz
+//Resolucion de numero magicos
+//Documentacion descriptiva
